@@ -8,7 +8,7 @@ This repository contains the source codes and miscellaneous figures for SubSpect
 
 We introduce a novel approach of using spectrograms in Convolutional Neural Networks in the context of acoustic scene classification. First, we show from the statistical analysis that some specific bands of mel-spectrograms carry discriminative information than other bands, which is specific to every soundscape. From the inferences taken by this, we propose SubSpectralNets in which we first design a new convolutional layer that splits the time-frequency features into sub-spectrograms, then merges the band-level features on a later stage for the global classification. The effectiveness of SubSpectralNet is demonstrated by a relative improvement of +14% accuracy over the DCASE 2018 baseline model. The detailed architecture of SubSpectralNet is shown below.
 
-![](figures/SubSpectralNet.png)
+![](figures/SubSpectralNet.png | width=48)
 
 If you have any queries regarding the code, please contact us on the following email: 2014csb1029@iitrpr.ac.in (Sai Samarth R Phaye)
 
@@ -43,7 +43,7 @@ python SubSpectralNet.py
 
 ## Results
 
-![](figures/AccPlot.png)
+![](figures/AccPlot.png | width=48)
 
 The results of the network are shared in Section 4 of the paper. Following is the accuracy curve obtained after training the model on 40 mel-bin magnitude spectrograms, 20 sub-spectrogram size and 10 mel-bin hop-size (72.18%, average-best accuracy in three runs).
 
