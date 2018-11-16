@@ -55,4 +55,4 @@ When SubSpectralNet is trained on 200 mel-bin spectrograms, 20 sub-spectrogram s
 
 ## Other Implementations
 
-If you are writing code for SubSpectralNets in any other framework, please let us know and we'll be happy to provide your link here.
+If you are writing code for SubSpectralNets in any other framework, please let us know and we'll be happy to share your link here.
