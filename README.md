@@ -28,13 +28,13 @@ pip install tensorflow-gpu
 pip install keras
 ```
 
-**Step 2. Clone this repository to local.**
+**Step 2. Clone the repository to local.**
 ```
 git clone https://github.com/ssrp/SubSpectralNet.git SubSpectralNet
 cd SubSpectralNet
 ```
 
-**Step 3. Train a CapsNet on MNIST**  
+**Step 3. Train a SubSpectralNet**  
 
 Training with default settings:
 ```
