@@ -42,10 +42,9 @@ python SubSpectralNet.py
 ```
 
 ## Results
+The results of the network are shared in Section 4 of the paper. Following is the accuracy curve obtained after training the model on 40 mel-bin magnitude spectrograms, 20 sub-spectrogram size and 10 mel-bin hop-size (72.18%, average-best accuracy in three runs).
 
 <img src="figures/AccPlot.png" width="480">
-
-The results of the network are shared in Section 4 of the paper. Following is the accuracy curve obtained after training the model on 40 mel-bin magnitude spectrograms, 20 sub-spectrogram size and 10 mel-bin hop-size (72.18%, average-best accuracy in three runs).
 
 #### Training Speed 
 
