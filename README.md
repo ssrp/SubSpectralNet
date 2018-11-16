@@ -49,8 +49,7 @@ The results of the network are shared in Section 4 of the paper. Following is th
 
 #### Training Speed 
 
-The training speed depends on the parameters that you set for SubSpectrogram size and mel-hop size, as they decide the final architecture of the network. Following are some examples on the time complexity, when the model was trained on Nvidia Tesla K80 card:
-When SubSpectralNet is trained on 200 mel-bin spectrograms, 20 sub-spectrogram size and 10 mel-bin hop-size, the time taken for one epoch is around 210s.
+The training speed depends on the parameters that you set for SubSpectrogram size and mel-hop size, as they decide the final architecture of the network. For example, when the model was trained using Nvidia Tesla K80 card, on 200 mel-bin spectrograms, 20 sub-spectrogram size and 10 mel-bin hop-size, the time taken for one epoch is around 210s.
 
 
 ## Other Implementations
