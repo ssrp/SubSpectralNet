@@ -34,7 +34,7 @@ git clone https://github.com/ssrp/SubSpectralNet.git SubSpectralNet
 cd SubSpectralNet/code
 ```
 
-**Step 3. Train a SubSpectralNet**  
+**Step 3. Move the Numpy datasets**  
 Move the Numpy dataset files extracted using DCASE baseline code in the current directory.
 
 **Step 4. Train a SubSpectralNet**  
