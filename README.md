@@ -31,7 +31,7 @@ pip install keras
 **Step 2. Clone the repository to local.**
 ```
 git clone https://github.com/ssrp/SubSpectralNet.git SubSpectralNet
-cd SubSpectralNet
+cd SubSpectralNet/code
 ```
 
 **Step 3. Train a SubSpectralNet**  
