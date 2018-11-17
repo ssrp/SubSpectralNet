@@ -35,11 +35,15 @@ cd SubSpectralNet/code
 ```
 
 **Step 3. Train a SubSpectralNet**  
+Move the Numpy dataset files extracted using DCASE baseline code in the current directory.
+
+**Step 4. Train a SubSpectralNet**  
 
 Training with default settings:
 ```
 python SubSpectralNet.py
 ```
+For more settings, the code is well-commented and it's easy to change the parameters looking at the comments. 
 
 ## Results
 The results of the network are shared in Section 4 of the paper. Following is the accuracy curve obtained after training the model on 40 mel-bin magnitude spectrograms, 20 sub-spectrogram size and 10 mel-bin hop-size (72.18%, average-best accuracy in three runs).
