@@ -6,6 +6,8 @@ This repository contains the source codes and miscellaneous figures for SubSpect
 
 [Sai Samarth R Phaye](http://www.saiphaye.com/), [Emmanouil Benetos](http://www.eecs.qmul.ac.uk/~emmanouilb/), and [Ye Wang](https://www.smcnus.org/profile/ye-wang/).
 
+[Click here for the presentation!](https://docs.google.com/presentation/d/1xyvpgGPkdrxgbBbEWvup5sPiajiWRdbQ7CZGd9nW0jY/)
+
 We introduce a novel approach of using spectrograms in Convolutional Neural Networks in the context of acoustic scene classification. First, we show from the statistical analysis that some specific bands of mel-spectrograms carry discriminative information than other bands, which is specific to every soundscape. From the inferences taken by this, we propose SubSpectralNets in which we first design a new convolutional layer that splits the time-frequency features into sub-spectrograms, then merges the band-level features on a later stage for the global classification. The effectiveness of SubSpectralNet is demonstrated by a relative improvement of +14% accuracy over the DCASE 2018 baseline model. The detailed architecture of SubSpectralNet is shown below.
 
 <img src="figures/SubSpectralNet.png" width="600">
