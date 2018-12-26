@@ -16,7 +16,7 @@ If you have any queries regarding the code, please contact us on the following e
 
 ## Usage
 
-SubSpectralNets are very easy to implement and following is the our implementation of the same.
+Following are the steps to to follow for training the model on our implementation:
 
 Before training the model, it is expected that you extract the log mel-energy magnitude spectrograms from the audio dataset. For this, we used the standard [DCASE 2018 Baseline Code](https://github.com/DCASE-REPO/dcase2018_baseline/) provided by the DCASE community. We use the publicly provided development dataset (Task 1A, DCASE 2018), which has 6122 two-channel 10-second samples for training and 2518 samples for testing. We used stereo information as the input to our model, with the same baseline parameters for spectrogram extraction (details in the [paper](https://arxiv.org/abs/1810.12642)), except for the number of mel-bins, which is set to either 200 or 40. Once the features (spectrograms) are extracted, the dimension should be (6122, 200, 500, 1) for training samples (two, one for each channel), (2518, 200, 500, 1) for testing and the corresponding one-hot vectors for both samples. They are loaded with the following names in the code: "X_train_left.npy", "X_train_right.npy", "X_validation_left.npy", "X_validation_right.npy", "Y_train.npy", "Y_validation.npy".
 
