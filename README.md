@@ -9,9 +9,11 @@ This repository contains the source codes and miscellaneous figures for SubSpect
 [Click here for the presentation!](https://docs.google.com/presentation/d/1xyvpgGPkdrxgbBbEWvup5sPiajiWRdbQ7CZGd9nW0jY/)
 
 We introduce a novel approach of using spectrograms in Convolutional Neural Networks in the context of acoustic scene classification. First, we show from the statistical analysis that some specific bands of mel-spectrograms carry discriminative information than other bands, which is specific to every soundscape. From the inferences taken by this, we propose SubSpectralNets in which we first design a new convolutional layer that splits the time-frequency features into sub-spectrograms, then merges the band-level features on a later stage for the global classification. The effectiveness of SubSpectralNet is demonstrated by a relative improvement of +14% accuracy over the DCASE 2018 baseline model. The detailed architecture of SubSpectralNet is shown below.
-<p align = "center>
+
+<p align = "center">
 <img src="figures/SubSpectralNet.png" width="600">
 </p>
+                                                 
 If you have any queries regarding the code, please contact us on the following email: phaye.samarth@gmail.com (Sai Samarth R Phaye)
 
 ## Usage
@@ -49,9 +51,11 @@ For more settings, the code is well-commented and it's easy to change the parame
 
 ## Results
 The results of the network are shared in Section 4 of the paper. Following is the accuracy curve obtained after training the model on 40 mel-bin magnitude spectrograms, 20 sub-spectrogram size and 10 mel-bin hop-size (72.18%, average-best accuracy in three runs).
-<p align = "center>
+
+<p align = "center">
 <img src="figures/AccPlot.png" width="480">
 </p>
+                                          
 #### Training Speed 
 
 The training speed depends on the parameters that you set for SubSpectrogram size and mel-hop size, as they decide the final architecture of the network. For example, when the model is trained using Nvidia Tesla K80 card, on 200 mel-bin spectrograms, 20 sub-spectrogram size and 10 mel-bin hop-size, the time taken for one epoch is around 210s.
