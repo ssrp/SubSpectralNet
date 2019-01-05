@@ -60,7 +60,7 @@ channels = 2
 
 ####### Generate the model ###########
 inputLayer = Input((melSize,timeInd,channels))
-subSize = splitSize/10
+subSize = int(splitSize/10)
 i = 0
 inputs = []
 outputs = []
