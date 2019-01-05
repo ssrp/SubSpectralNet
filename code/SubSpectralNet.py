@@ -29,7 +29,7 @@ seed(1028)
 
 # Load the dataset generated from DCASE Baseline Code
 x_trainL = np.load('X_train_left.npy')
-x_trainR = np.load('X_train_right.numpy')
+x_trainR = np.load('X_train_right.npy')
 
 x_testL = np.load('X_validation_left.npy')
 x_testR = np.load('X_validation_right.npy')
