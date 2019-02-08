@@ -2,7 +2,7 @@
 
 This repository contains the source codes and miscellaneous figures for SubSpectralNet introduced in the following paper:
 
-[SubSpectralNet - Using Sub-Spectrogram based Convolutional Neural Networks for Acoustic Scene Classification](https://arxiv.org/abs/1810.12642) (Submitted in ICASSP 2019) 
+[SubSpectralNet - Using Sub-Spectrogram based Convolutional Neural Networks for Acoustic Scene Classification](https://arxiv.org/abs/1810.12642) (Accepted in ICASSP 2019) 
 
 [Sai Samarth R Phaye](https://ssrp.github.io), [Emmanouil Benetos](http://www.eecs.qmul.ac.uk/~emmanouilb/), and [Ye Wang](https://www.smcnus.org/profile/ye-wang/).
 
