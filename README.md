@@ -1,6 +1,6 @@
 # SubSpectralNet - Using Sub-Spectrogram based Convolutional Neural Networks for Acoustic Scene Classification
 
-This repository contains the source codes and miscellaneous figures for SubSpectralNet introduced in the following paper:
+This repository contains the Keras/TensorFlow implementation and miscellaneous figures for SubSpectralNets introduced in the following paper:
 
 [SubSpectralNet - Using Sub-Spectrogram based Convolutional Neural Networks for Acoustic Scene Classification](https://arxiv.org/abs/1810.12642) (Accepted in ICASSP 2019) 
 
@@ -64,3 +64,6 @@ The training speed depends on the parameters that you set for SubSpectrogram siz
 ## Other Implementations
 
 If you are writing code for SubSpectralNets in any other framework, please let us know and we'll be happy to share your link here.
+
+- PyTorch:
+  - [ssrp/SubSpectralNet-PyTorch](https://github.com/ssrp/SubSpectralNet-PyTorch)
